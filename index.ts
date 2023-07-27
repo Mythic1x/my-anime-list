@@ -8,7 +8,6 @@ export const get = async (options: options) => {
     return results
 }
 
-get({ name: "death note", type: "manga"}).then(res => console.log(res))
 
 export default {
     get
